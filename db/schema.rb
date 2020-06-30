@@ -16,7 +16,7 @@ ActiveRecord::Schema.define(version: 2020_06_30_042431) do
   enable_extension "plpgsql"
 
   create_table "products", force: :cascade do |t|
-    t.string "titile"
+    t.string "title"
     t.text "description"
     t.string "image_url"
     t.decimal "price", precision: 8, scale: 2
